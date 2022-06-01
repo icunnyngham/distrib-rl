@@ -3,6 +3,7 @@ from rlgym_tools.extra_obs.advanced_padder import AdvancedObsPadder
 from rlgym_tools.extra_obs.advanced_stacker import AdvancedStacker
 from rlgym_tools.extra_obs.general_stacking import GeneralStacker
 from .ObsBuilders.DefaultWithTimeoutsObsBuilder import DefaultWithTimeoutsObsBuilder
+from .ObsBuilders.RelativeWithTimeoutsObsBuilder import RelativeWithTimeoutsObsBuilder
 
 from distrib_rl.Utils.FactoryBuilder import build_component_factory
 
@@ -12,6 +13,7 @@ _builders = {
     "advanced_stacker": AdvancedStacker,
     "advanced_padder": AdvancedObsPadder,
     "default_with_timeouts": DefaultWithTimeoutsObsBuilder,
+    "relative_with_timeouts": RelativeWithTimeoutsObsBuilder,
     "general_stacker": GeneralStacker
 }
 
