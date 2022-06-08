@@ -19,13 +19,13 @@ stable-baselines3==1.5.0
 
 --find-links https://download.pytorch.org/whl/torch_stable.html
 # torch==1.11.0+cpu # CPU only version (smaller, no gpu acceleration)
-torch==1.11.0
+torch==1.11.0+cu113 
 torchvision==0.12.0
 
-trueskill==0.4.5
+trueskill
 typing-extensions==3.7.4.3
 typing-inspect==0.6.0
 zuper-typing-z6==6.1.8
-wandb==0.10.33
+wandb
 
 lz4==4.0.0
